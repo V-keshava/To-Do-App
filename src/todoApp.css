@@ -1,0 +1,91 @@
+#postmain{
+    width: 350px;
+    height: fit-content;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    margin-left: 600px;
+    margin-top: 100px;
+    border-radius: 10px;
+    font-family: cursive;
+}
+
+#heading{
+    margin-left: 25%;
+}
+.input1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 25px;
+    border: 0px;
+    border-radius: 5px;
+}
+.add{
+    height: 25px;
+    margin-left: 10px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-weight: bold ;
+    font-family: cursive;
+
+}
+.add:hover{
+    background-color: green;
+    cursor: pointer;
+}
+#ordlst{
+    list-style: none;
+    
+}
+#lstitm{
+    display: flex;
+    /* justify-content: flex-start; */
+    margin-left: -30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* background-color: brown; */
+}
+
+#matter{
+    display: flex;
+    justify-content: flex-start;
+}
+#content{
+    width: 200px;
+}
+#activity{
+    font-size: large;
+    font-family: cursive;
+}
+#buttons{
+    display: flex;
+    justify-content: flex-end;
+}
+#edit{
+    cursor: pointer;
+    border: 0px;
+    border: 0px;
+    background-color: aquamarine;
+}
+#delete{
+    margin-left: 10px;
+    cursor: pointer;
+    border: 0px;
+    background-color: aquamarine;
+    color: red;
+}
+#save{
+    margin-left: 85px;
+    cursor: pointer;
+    border: 0px;
+    background-color: aquamarine;
+    color: green;
+}
+.input2{
+    height: 25px;
+    border: 0px;
+    border-radius: 5px;
+}
